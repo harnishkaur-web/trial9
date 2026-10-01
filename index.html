@@ -1,232 +1,259 @@
 <!DOCTYPE html>
-<html lang="en-IN" data-theme="light">
+<html lang="en-IN">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Section Check: Check Before You Use</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Section Check: Check Before You Use · Swift AI Academy</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="app">
 
-<header class="top">
-  <div class="wrap">
-    <div class="brand"><div class="brand-mark"><svg class="i" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>Swift AI Academy</div>
-    <span class="schema mono">AAI-E-MC1-S03-EVAL01</span>
-  </div>
-</header>
+  <header class="top">
+    <div class="brand"><span class="brand-mark" aria-hidden="true"></span>Swift&nbsp;AI&nbsp;Academy</div>
+    <div class="top-meta">Section 1.3 · Check Before You Use</div>
+  </header>
 
-<div class="wrap">
-  <nav class="steps" id="steps" aria-label="Pages"></nav>
+  <main class="stage">
+
+    <!-- 1 · Welcome -->
+    <section class="slide" id="welcome" data-next="Start the refresher">
+      <div class="card narrow">
+        <div class="head">
+          <div class="eyebrow">Section Check · Evaluation</div>
+          <h1 class="title">Check before you use</h1>
+          <p class="lede">AI can write a notice in seconds. It can also get a date, a number or a name wrong, and still sound sure. This check is about one habit: look closely before you send.</p>
+        </div>
+        <div class="rule"></div>
+        <div class="grid g3 keep3">
+          <div class="tile center"><span class="dot-ic"><span data-i="check-sq"></span></span><h3>20 questions</h3><p>Real work situations</p></div>
+          <div class="tile center"><span class="dot-ic"><span data-i="target"></span></span><h3>70% to pass</h3><p>No time limit</p></div>
+          <div class="tile center"><span class="dot-ic"><span data-i="refresh"></span></span><h3>Unlimited tries</h3><p>New order each time</p></div>
+        </div>
+        <div class="row">
+          <button type="button" class="btn-link" data-go="route">Skip the refresher and go to the check <span data-i="arrow-right"></span></button>
+        </div>
+        <p class="code">AAI-E-MC1-S03-EVAL01</p>
+      </div>
+    </section>
+
+    <!-- 2 · How scoring works -->
+    <section class="slide" id="scoring">
+      <div class="card narrow">
+        <div class="head">
+          <div class="eyebrow">How scoring works</div>
+          <h2 class="title">Three things to know</h2>
+        </div>
+        <ul class="list">
+          <li><span class="dot-ic"><span data-i="award"></span></span><span class="li-text">Questions about <strong>decisions</strong> are worth 2 marks. Questions about <strong>remembering</strong> a word are worth 1 mark.</span></li>
+          <li><span class="dot-ic"><span data-i="shield"></span></span><span class="li-text">You need <strong>70% overall</strong>. You also need <strong>70% in the first three stations</strong> on their own. A high score later cannot make up for them.</span></li>
+          <li><span class="dot-ic"><span data-i="chat"></span></span><span class="li-text">Get one wrong? You see why straight away. You can try again as many times as you like.</span></li>
+        </ul>
+        <p class="small">The result does not count towards your course time.</p>
+      </div>
+    </section>
+
+    <!-- 3 · Refresher: confidence is not proof -->
+    <section class="slide" id="sure">
+      <div class="card">
+        <div class="head">
+          <div class="eyebrow">Refresher</div>
+          <h2 class="title">Sounding sure is not the same as being right</h2>
+          <p class="lede">AI tools write smooth, confident text. They do not know if each detail is true for your batch, campus or workshop.</p>
+        </div>
+        <div class="grid g2">
+          <div class="tile">
+            <div class="bar-top"><span><span data-i="mega"></span>How sure it sounds</span><em>Very high</em></div>
+            <div class="track2"><i style="width:96%"></i></div>
+            <div class="doc">“The seminar is on 14 March in Hall B, as confirmed by the HOD.”</div>
+          </div>
+          <div class="tile">
+            <div class="bar-top"><span><span data-i="search"></span>Proof you actually have</span><em>None yet</em></div>
+            <div class="track2"><i class="ok" style="width:6%"></i></div>
+            <div class="doc">No notice, no email, no word from the HOD. So far, it is only a sentence.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · Refresher: the checking routine -->
+    <section class="slide" id="routine">
+      <div class="card narrow">
+        <div class="head">
+          <div class="eyebrow">Refresher</div>
+          <h2 class="title">The checking routine</h2>
+          <p class="lede">Four steps, in order. Tap each step to see an example.</p>
+        </div>
+        <div class="seg full" id="routine-tabs" role="group" aria-label="Checking steps"></div>
+        <div class="step-panel" id="routine-panel" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- 5 · Stay safe: never type these -->
+    <section class="slide" id="never">
+      <div class="card">
+        <div class="head">
+          <div class="eyebrow">Stay safe</div>
+          <h2 class="title">Never type these into an AI tool</h2>
+          <p class="lede">Not even to check something. Once you type it, you cannot take it back.</p>
+        </div>
+        <div class="grid g4 tiles-sm" id="never-grid"></div>
+      </div>
+    </section>
+
+    <!-- 6 · Stay safe: where to check -->
+    <section class="slide" id="sources">
+      <div class="card">
+        <div class="head">
+          <div class="eyebrow">Stay safe</div>
+          <h2 class="title">Where to check instead</h2>
+          <p class="lede">Go back to where the information really comes from. Asking the same AI again, or a different AI, is not a check.</p>
+        </div>
+        <div class="grid g3" id="source-grid"></div>
+      </div>
+    </section>
+
+    <!-- 7 · Stay safe: warning signs -->
+    <section class="slide" id="flags">
+      <div class="card narrow">
+        <div class="head">
+          <div class="eyebrow">Stay safe</div>
+          <h2 class="title">Warning signs in an AI reply</h2>
+          <p class="lede">Slow down and check when you see any of these.</p>
+        </div>
+        <ul class="list">
+          <li><span class="dot-ic sm bad"><span data-i="flag"></span></span><span class="li-text">Exact numbers or percentages you never gave it.</span></li>
+          <li><span class="dot-ic sm bad"><span data-i="flag"></span></span><span class="li-text">Phrases like “as per the rules” or “experts say”, with no document named.</span></li>
+          <li><span class="dot-ic sm bad"><span data-i="flag"></span></span><span class="li-text">A name, job title or approval you did not mention.</span></li>
+          <li><span class="dot-ic sm bad"><span data-i="flag"></span></span><span class="li-text">A day and a date that do not match on the calendar.</span></li>
+          <li><span class="dot-ic sm bad"><span data-i="flag"></span></span><span class="li-text">Helpful extras that are not in your source, like “tools will be provided”.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 8 · A real-life check -->
+    <section class="slide" id="demo">
+      <div class="card">
+        <div class="head-row">
+          <div class="head">
+            <div class="eyebrow">Real-life check</div>
+            <h2 class="title">Kavya checks her notice</h2>
+          </div>
+          <div class="seg" id="demo-tabs" role="group" aria-label="Choose version">
+            <button type="button" aria-pressed="true" data-v="draft"><span data-i="bot"></span>AI draft</button>
+            <button type="button" aria-pressed="false" data-v="checked"><span data-i="shield"></span>After checking</button>
+          </div>
+        </div>
+        <p class="lede">Kavya is a Welder trainee. She used AI to turn her facilitator's message into a notice for Batch A.</p>
+        <div class="two-col">
+          <div class="col">
+            <div class="doc source">
+              <div class="doc-head"><span data-i="chat"></span>The facilitator's message (the source)</div>
+              Batch A welding practical: Thursday, 15 October, 10 AM, Workshop 2. Bring your own safety gloves.
+            </div>
+            <div class="doc">
+              <div class="doc-head"><span data-i="file"></span>Notice for Batch A<span class="tag">Made-up example</span></div>
+              <p id="demo-text" aria-live="polite"></p>
+            </div>
+          </div>
+          <div class="col" id="demo-notes"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9 · Ready -->
+    <section class="slide" id="route" data-next="Begin the check">
+      <div class="card">
+        <div class="head">
+          <div class="eyebrow">Ready?</div>
+          <h2 class="title">Your checking route</h2>
+          <p class="lede">20 questions in five stations. Each station practises one part of the routine. All the people and records are made up.</p>
+        </div>
+        <ol class="route" id="route-rail"></ol>
+        <div class="grid g4">
+          <div class="tile"><span class="dot-ic sm"><span data-i="check-sq"></span></span><h3>Choose</h3><p>Pick the best decision.</p></div>
+          <div class="tile"><span class="dot-ic sm"><span data-i="pen"></span></span><h3>Mark</h3><p>Tap every part that needs checking.</p></div>
+          <div class="tile"><span class="dot-ic sm"><span data-i="sort"></span></span><h3>Sort</h3><p>Label each line from a list.</p></div>
+          <div class="tile"><span class="dot-ic sm"><span data-i="list"></span></span><h3>Order</h3><p>Put the steps in the right order.</p></div>
+        </div>
+        <p class="small">This is attempt <strong id="attempt-no">1</strong>.</p>
+      </div>
+    </section>
+
+    <!-- 10 · The questions (drawn by script.js) -->
+    <section class="slide" id="quiz" data-back="off">
+      <div class="card quiz" id="qcard"></div>
+    </section>
+
+    <!-- 11 · Result -->
+    <section class="slide" id="result" data-back="off" data-next="See how you did">
+      <div class="card narrow">
+        <div class="result-top">
+          <div class="ring" id="ring"></div>
+          <div class="head">
+            <span class="kicker">Section check result</span>
+            <h2 class="title" id="res-title">Result</h2>
+            <p class="status" id="res-status"></p>
+            <p class="lede" id="res-msg"></p>
+          </div>
+        </div>
+        <div class="grid g2" id="gates"></div>
+        <div class="row">
+          <button type="button" class="btn btn-ghost btn-sm" id="retry-now"><span data-i="refresh"></span>Try again now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12 · By station -->
+    <section class="slide" id="stations" data-next="Review my answers">
+      <div class="card narrow">
+        <div class="head">
+          <div class="eyebrow">How you did</div>
+          <h2 class="title">Your score in each station</h2>
+        </div>
+        <div class="bars" id="bars"></div>
+        <div class="row">
+          <button type="button" class="btn btn-ghost btn-sm" data-go="sure"><span data-i="open"></span>Revisit the refresher</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 13 · Review -->
+    <section class="slide" id="review" data-next="Try again with a new order" data-icon="refresh">
+      <div class="card">
+        <div class="head">
+          <div class="eyebrow">Review</div>
+          <h2 class="title">Your answers</h2>
+          <p class="lede">Tap a number to see the question again.</p>
+        </div>
+        <div class="two-col even">
+          <div class="col">
+            <div class="qgrid" id="qgrid" role="group" aria-label="Questions"></div>
+            <div class="row small">
+              <span class="row"><span class="dot-ic sm ok"><span data-i="check"></span></span>Correct</span>
+              <span class="row"><span class="dot-ic sm bad"><span data-i="x"></span></span>Not quite</span>
+            </div>
+            <button type="button" class="btn btn-ghost btn-sm fit-start" id="save"><span data-i="download"></span>Download my results</button>
+          </div>
+          <div class="detail" id="detail" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <div class="foot-left" id="progress" role="status"></div>
+    <div class="nav">
+      <button type="button" class="btn btn-ghost" id="back"><span data-i="arrow-left"></span><span class="btn-back-label">Back</span></button>
+      <button type="button" class="btn btn-primary" id="primary">Continue</button>
+    </div>
+  </footer>
+
 </div>
-
-<main class="wrap" id="main">
-
-<!-- 1 WELCOME -->
-<section class="screen" data-s="0" aria-labelledby="h-welcome">
-  <div class="hero">
-    <div>
-      <div class="kicker"><svg class="i" viewBox="0 0 24 24"><path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/></svg>Section 1.3 check</div>
-      <h1 id="h-welcome">Check before you use</h1>
-      <p class="lede">An AI tool can write a notice, a summary or a report in seconds. It can also get a date, a number or a name wrong and still sound completely sure. This check is about the habit that protects you: look closely before you send.</p>
-      <div class="facts">
-        <div class="fact"><div class="dot" style="background:var(--royal-t);color:var(--royal)"><svg class="i" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div><div><strong>20 questions</strong><span>Real work situations</span></div></div>
-        <div class="fact"><div class="dot" style="background:var(--teal-t);color:var(--teal)"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><div><strong>70% to pass</strong><span>No time limit</span></div></div>
-        <div class="fact"><div class="dot" style="background:var(--violet-t);color:var(--violet)"><svg class="i" viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg></div><div><strong>Unlimited tries</strong><span>New order each time</span></div></div>
-      </div>
-    </div>
-    <div class="hero-art" aria-hidden="true">
-      <svg viewBox="0 0 360 320">
-        <rect x="30" y="40" width="250" height="190" rx="22" fill="#fff" stroke="#E2E6F2"/>
-        <path d="M70 230 L60 262 L100 230" fill="#fff" stroke="#E2E6F2"/>
-        <rect x="52" y="60" width="36" height="36" rx="11" fill="#E8ECFF"/>
-        <g stroke="#3D5AFE" stroke-width="1.75" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="60" y="71" width="20" height="16" rx="4"/><path d="M70 66v5M66 79h.01M74 79h.01"/></g>
-        <text x="100" y="84" font-family="JetBrains Mono, monospace" font-size="12" fill="#4A5588">AI draft</text>
-        <rect x="52" y="112" width="200" height="10" rx="5" fill="#E2E6F2"/>
-        <rect x="52" y="134" width="96" height="14" rx="5" fill="#DCD3FF"/><rect x="154" y="136" width="98" height="10" rx="5" fill="#E2E6F2"/>
-        <rect x="52" y="160" width="60" height="10" rx="5" fill="#E2E6F2"/><rect x="118" y="158" width="80" height="14" rx="5" fill="#FFF3DA" stroke="#FBB034"/>
-        <rect x="52" y="186" width="170" height="10" rx="5" fill="#E2E6F2"/>
-        <rect x="52" y="206" width="120" height="10" rx="5" fill="#FDE8F0"/><path d="M50 211h126" stroke="#C8336A" stroke-width="2"/>
-        <circle cx="262" cy="190" r="48" fill="#DDF5F3" opacity=".9"/>
-        <circle cx="262" cy="190" r="34" fill="none" stroke="#0B8F8C" stroke-width="5"/>
-        <path d="M287 215 L322 250" stroke="#0E1B5C" stroke-width="10" stroke-linecap="round"/>
-        <path d="M250 190l8 8 16-16" fill="none" stroke="#0B8F8C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="300" cy="62" r="22" fill="#FDE8F0"/>
-        <path d="M300 52v12M300 71h.01" stroke="#C8336A" stroke-width="3" stroke-linecap="round"/>
-        <circle cx="42" cy="286" r="8" fill="#E1F0FC"/><circle cx="330" cy="120" r="6" fill="#EEEAFF"/><circle cx="160" cy="292" r="5" fill="#FFF3DA"/>
-      </svg>
-    </div>
-  </div>
-
-  <div class="acc">
-    <details>
-      <summary><span class="ico-chip" style="background:var(--royal-t);color:var(--royal)"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></span>How is this check scored?<svg class="i chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></summary>
-      <div class="body">Questions about real decisions count for 2 marks. The few questions about remembering a term count for 1 mark. You need 70 percent of the total marks to pass. The result does not count towards your course duration.</div>
-    </details>
-    <details>
-      <summary><span class="ico-chip" style="background:var(--gold-t);color:var(--gold-ink)"><svg class="i" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>Is there a special rule?<svg class="i chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></summary>
-      <div class="body">Yes. The first three stations (Confidence, Mark and Separate) are checked on their own as well. You need at least 70 percent in that group too. A high score in the later stations cannot make up for a low score here.</div>
-    </details>
-    <details>
-      <summary><span class="ico-chip" style="background:var(--teal-t);color:var(--teal)"><svg class="i" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>What happens if I get one wrong?<svg class="i chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></summary>
-      <div class="body">You see a short explanation straight away, plus a quick reminder of the part of Section 1.3 that covers it. You can retry the whole check as many times as you like.</div>
-    </details>
-  </div>
-
-  <div class="actions">
-    <button class="btn btn-primary" data-go="1">Start with a quick refresher <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-    <button class="btn btn-ghost" data-go="4">Go straight to the check</button>
-  </div>
-</section>
-
-<!-- 2 REFRESHER -->
-<section class="screen" data-s="1" aria-labelledby="h-ref">
-  <h2 id="h-ref">Sounding sure is not the same as being right</h2>
-  <p class="lede">AI tools are built to write smooth, confident text. They are not built to know whether each detail is true for your batch, your campus or your workshop.</p>
-
-  <div class="meter-wrap">
-    <div class="card meter">
-      <h3 style="display:flex;gap:8px;align-items:center"><svg class="i" viewBox="0 0 24 24" style="color:var(--violet)"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg>How sure it sounds</h3>
-      <div class="bar"><div class="fill" style="width:96%;background:linear-gradient(90deg,#A898FF,var(--violet))"></div></div>
-      <small>Very high</small>
-      <div class="bubble">"The seminar is on 14 March in Hall B, as confirmed by the HOD."</div>
-    </div>
-    <div class="card meter">
-      <h3 style="display:flex;gap:8px;align-items:center"><svg class="i" viewBox="0 0 24 24" style="color:var(--teal)"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Proof you actually have</h3>
-      <div class="bar"><div class="fill" style="width:6%;background:var(--teal)"></div></div>
-      <small>None yet</small>
-      <div class="bubble" style="background:var(--teal-t)">No notice, no email, no word from the HOD. So far it is only a sentence.</div>
-    </div>
-  </div>
-
-  <h2 style="font-size:1.4rem">The checking routine</h2>
-  <p style="color:var(--ink-2)">Tap each step to see an example.</p>
-  <div class="moves" id="moves"></div>
-
-  <div class="actions">
-    <button class="btn btn-ghost" data-go="0"><svg class="i" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Back</button>
-    <span class="spacer"></span>
-    <button class="btn btn-primary" data-go="2">Next: stay safe <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-  </div>
-</section>
-
-<!-- 3 SAFETY -->
-<section class="screen" data-s="2" aria-labelledby="h-safe">
-  <h2 id="h-safe">Before you type, and before you trust</h2>
-  <div class="banner"><svg class="i" viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/></svg><div><strong>Never enter these into any AI tool.</strong> Not even to "check" something. Once typed, you cannot take it back.</div></div>
-  <div class="caution" id="caution"></div>
-
-  <h2 style="font-size:1.4rem">Where to check instead</h2>
-  <p style="color:var(--ink-2)">Go back to the place the information really comes from. Asking the same AI again, or a different AI, is not a check.</p>
-  <div class="sources" id="sources"></div>
-
-  <div class="acc flags">
-    <details>
-      <summary><span class="ico-chip" style="background:var(--rose-t);color:var(--rose)"><svg class="i" viewBox="0 0 24 24"><path d="M4 22V4a1 1 0 0 1 1-1h11l-2 4 2 4H5"/></svg></span>Warning signs in an AI reply<svg class="i chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></summary>
-      <div class="body">
-        <p>Exact numbers or percentages you never gave it.</p>
-        <p>Phrases like "as per the rules", "studies show" or "experts say" with no document named.</p>
-        <p>A person's name, a designation or an approval you did not mention.</p>
-        <p>A day and date that do not match each other on the calendar.</p>
-        <p style="margin:0">Details that sound helpful but are not in your source, such as "tools will be provided".</p>
-      </div>
-    </details>
-  </div>
-
-  <div class="actions">
-    <button class="btn btn-ghost" data-go="1"><svg class="i" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Back</button>
-    <span class="spacer"></span>
-    <button class="btn btn-primary" data-go="3">Next: see a real check <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-  </div>
-</section>
-
-<!-- 4 REAL-LIFE -->
-<section class="screen" data-s="3" aria-labelledby="h-real">
-  <h2 id="h-real">A real-life check, start to finish</h2>
-  <p class="lede">Kavya is a Welder trainee. Her facilitator asked her to turn a short message into a notice for Batch A. She used an AI tool for the first draft. Switch between the two versions.</p>
-
-  <div class="seg" role="group" aria-label="Choose version">
-    <button aria-pressed="true" data-v="draft"><svg class="i" viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="12" rx="3"/><path d="M12 4v4M9 13h.01M15 13h.01"/></svg>AI draft</button>
-    <button aria-pressed="false" data-v="checked"><svg class="i" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>After checking</button>
-  </div>
-
-  <div class="demo">
-    <div>
-      <div class="evidence"><b><svg class="i" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>The facilitator's actual message (the source)</b>Batch A welding practical: Thursday, 15 October, 10 AM, Workshop 2. Bring your own safety gloves.</div>
-      <div class="slip">
-        <div class="slip-head"><strong>Notice for Batch A</strong><span class="tag t-fic">Fictional example</span></div>
-        <p id="demoText" aria-live="polite"></p>
-      </div>
-    </div>
-    <div class="notes" id="demoNotes"></div>
-  </div>
-
-  <div class="actions">
-    <button class="btn btn-ghost" data-go="2"><svg class="i" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Back</button>
-    <span class="spacer"></span>
-    <button class="btn btn-primary" data-go="4">I am ready for the check <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-  </div>
-</section>
-
-<!-- 5 READY -->
-<section class="screen" data-s="4" aria-labelledby="h-ready">
-  <h2 id="h-ready">Your checking route</h2>
-  <p class="lede">You will pass through five stations. Each one practises one part of the routine. The examples use made-up records from ITI workshops and college campuses.</p>
-  <div class="ready">
-    <div class="card"><div class="big" style="color:var(--royal)">20</div><p style="margin:6px 0 0">questions in five stations</p></div>
-    <div class="card"><div class="big" style="color:var(--teal)">70%</div><p style="margin:6px 0 0">overall, and 70% in the first three stations</p></div>
-    <div class="card"><div class="big" style="color:var(--violet)" id="attemptNo">1</div><p style="margin:6px 0 0">attempt number. Retries are unlimited.</p></div>
-  </div>
-  <div class="card" style="padding:18px 20px">
-    <h3>Four kinds of questions</h3>
-    <div class="sources" style="margin-top:10px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">
-      <div class="src" style="padding:0"><span class="ico-chip" style="background:var(--royal-t);color:var(--royal)"><svg class="i" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/></svg></span><p><b style="color:var(--ink)">Choose</b><br>Pick the best decision in a situation.</p></div>
-      <div class="src" style="padding:0"><span class="ico-chip" style="background:var(--violet-t);color:var(--violet)"><svg class="i" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></span><p><b style="color:var(--ink)">Mark</b><br>Tap every part of an AI draft that needs checking.</p></div>
-      <div class="src" style="padding:0"><span class="ico-chip" style="background:var(--teal-t);color:var(--teal)"><svg class="i" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span><p><b style="color:var(--ink)">Sort</b><br>Use the drop-down to label each line.</p></div>
-      <div class="src" style="padding:0"><span class="ico-chip" style="background:var(--sky-t);color:var(--sky)"><svg class="i" viewBox="0 0 24 24"><path d="m18 15-6-6-6 6"/></svg></span><p><b style="color:var(--ink)">Order</b><br>Put the checking steps in the right sequence.</p></div>
-    </div>
-  </div>
-  <div class="actions">
-    <button class="btn btn-ghost" data-go="3"><svg class="i" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Back</button>
-    <span class="spacer"></span>
-    <button class="btn btn-gold" id="startBtn">Begin the check <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-  </div>
-</section>
-
-<!-- 6 QUIZ -->
-<section class="screen" data-s="5" aria-label="Section check">
-  <div class="rail" id="rail" aria-hidden="true"></div>
-  <div class="card q" id="qcard"></div>
-</section>
-
-<!-- 7 RESULT -->
-<section class="screen" data-s="6" aria-labelledby="h-res">
-  <h2 id="h-res">Your result</h2>
-  <div class="res">
-    <div class="card ring-card" id="ringCard"></div>
-    <div>
-      <div class="gates" id="gates"></div>
-      <div class="card bars" id="bars"></div>
-    </div>
-  </div>
-  <div class="actions">
-    <button class="btn btn-primary" id="retryBtn"><svg class="i" viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>Try again with a new order</button>
-    <button class="btn btn-ghost" data-go="1">Revisit the refresher</button>
-  </div>
-  <h3 style="margin-top:30px">Go through your answers</h3>
-  <div class="review" id="review"></div>
-</section>
-
-<div class="foot">
-  <span class="mono">AAI-E-MC1-S03-EVAL01</span>
-  <span>Section Check: Check Before You Use</span>
-  <span class="mono">PC 4.1 to 4.5, PC 5.1 to 5.4</span>
-  <span>All people, organisations and records in this check are fictional.</span>
-</div>
-</main>
-
 <script src="script.js"></script>
 </body>
 </html>
